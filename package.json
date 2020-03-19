@@ -1,0 +1,29 @@
+{
+  "name": "mesn-application",
+  "version": "1.0.0",
+  "description": "MESN-Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/mesn-application.git"
+  },
+  "keywords": [
+    "MESN",
+    "MongoDB",
+    "Express",
+    "Svelte",
+    "NodeJS"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/mesn-application/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/mesn-application#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
